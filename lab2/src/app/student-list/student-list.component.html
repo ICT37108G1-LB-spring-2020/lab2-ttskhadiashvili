@@ -1,0 +1,14 @@
+<table>
+    <tr>
+        <th *ngFor="let title of infoTitles">
+            {{ title }}
+        </th>
+    </tr>
+    
+    <tr *ngFor="let student of students">
+        <td *ngFor="let studentInfoItem of student">
+            {{ studentInfoItem }}
+        </td>
+    </tr>
+</table>
+
